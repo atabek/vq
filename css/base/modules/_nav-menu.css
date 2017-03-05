@@ -1,0 +1,43 @@
+.nav-menu {
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1  );
+
+  & .nav-items ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  & .nav-items .nav-item {
+    display: inline-block;
+  }
+  & .nav-items .nav-item.active {
+    position: relative;
+  }
+  & .nav-items .nav-item.active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    background-color: $mainOrange;
+    bottom: 0; right: 0; left: 0;
+    margin: 0 4px;
+
+  }
+  & .nav-items .nav-item:first-child {
+    padding-left: 3px;
+  }
+  & .nav-items .nav-item:last-child {
+    padding-right: 3px;
+  }
+  & .nav-items .nav-item a {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: $mainDGrey;
+    text-align: center;
+  }
+}

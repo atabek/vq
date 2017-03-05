@@ -1,0 +1,48 @@
+.footer {
+  background-color: #ececec;
+  height: 300px;
+
+  .footer-support {
+    float: left;
+    width: 280px;
+    margin: 0 20px 0 0;
+    padding: 0;
+  }
+
+  .footer-support .footer-title {
+
+  }
+
+  .support-phone span {
+    display: block;
+  }
+  .support-phone span i {
+    color: $mainPurple;
+  }
+  .footer-payment img {
+    width: 180px;
+    display: block;
+  }
+
+  .footer-company, .footer-info {
+    float: left;
+    width: 200px;
+  }
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  & ul li {
+    padding: 5px 0;
+  }
+
+  & ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  & ul li a:hover {
+    color: $mainPurple;
+  }
+
+}

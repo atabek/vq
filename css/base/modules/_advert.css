@@ -1,0 +1,27 @@
+.advert {
+
+  background-color: $mainGrey;
+  padding: 20px 0;
+
+  .advert-content {
+    position: relative;
+    box-shadow: 0px 3px 11px 2px #ccc;
+  }
+  .advert-content img {
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+  }
+
+  .advert-content .title{
+    position: absolute;
+    top: 50%; right: 0; left: 0;
+    transform: translateY(-50%);
+  }
+
+  .advert-content .title h1 {
+    text-align: center;
+    font-weight: lighter;
+    color: $mainPurple;
+  }
+}

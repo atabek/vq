@@ -1,0 +1,23 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.font-main-purple {
+  color: $mainPurple;
+}
